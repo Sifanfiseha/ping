@@ -97,6 +97,18 @@ input::placeholder {
   .btn {
     width: 100%;
   }
+  h1 {
+    font-size: 1.2rem;
+    word-spacing: 0.1rem;
+  }
+  .sub {
+    font-size: 0.9rem;
+  }
+
+  .error-msg {
+    bottom: 60px !important;
+    left: 60px !important;
+  }
 }
 .copy {
   font-size: 0.725rem;
