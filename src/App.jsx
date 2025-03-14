@@ -7,8 +7,10 @@ function App() {
   return (
     <>
       <Header></Header>
-      <Input></Input>
-      <img className="hero-img" src={heroImg} alt="" />
+      <main>
+        <Input></Input>
+        <img className="hero-img" src={heroImg} alt="hero" />
+      </main>
       <Footer></Footer>
     </>
   );
